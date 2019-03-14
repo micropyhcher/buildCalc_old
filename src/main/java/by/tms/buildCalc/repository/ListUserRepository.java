@@ -1,0 +1,52 @@
+package by.tms.buildCalc.repository;
+
+import by.tms.buildCalc.entity.User;
+import org.springframework.stereotype.Repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Repository
+public class ListUserRepository implements UserRepository {
+	
+	List<User> userList = new ArrayList<>();
+
+	@Override
+	public boolean saveUser(User userFromForm) {
+		boolean isUserSave = false;
+		boolean isUserPresent = false;
+		for (User userInList : userList) {
+			if (userInList.getEmail().equals(userFromForm.getEmail())){
+				isUserPresent = true;
+				break;
+			}
+		}
+		if (!isUserPresent){
+			Long id = Long.valueOf(userList.size());
+			userFromForm.setId(id);
+			userList.add(userFromForm);
+			isUserSave = true;
+		}
+		return isUserSave;
+	}
+
+	@Override
+	public User getUser(String email) {
+		User userForReturn = new User();
+		for (User user : userList) {
+			if (user.getEmail().equals(email)){
+				userForReturn = user;
+//				return user;
+			}
+		}
+		if (userForReturn.getName().isEmpty()){
+			userForReturn.setName("Guest");
+		}
+		return userForReturn;
+	}
+
+	@Override
+	public List<User> getUserList() {
+		return userList;
+	}
+}
