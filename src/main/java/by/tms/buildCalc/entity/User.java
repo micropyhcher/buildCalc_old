@@ -1,6 +1,8 @@
 package by.tms.buildCalc.entity;
 
+import com.sun.org.apache.xpath.internal.operations.Number;
 import org.hibernate.validator.constraints.Email;
+import org.springframework.format.annotation.NumberFormat;
 
 import javax.persistence.*;
 import javax.validation.constraints.Max;

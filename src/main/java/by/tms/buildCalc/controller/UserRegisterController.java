@@ -2,7 +2,6 @@ package by.tms.buildCalc.controller;
 
 import by.tms.buildCalc.entity.User;
 import by.tms.buildCalc.service.ImplUserService;
-import by.tms.buildCalc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -22,7 +21,7 @@ import java.util.List;
 public class UserRegisterController {
 
 	@Autowired
-	private ImplUserService implUserService;
+	private ImplUserService userService;
 
 	@GetMapping
 	public ModelAndView regUser (ModelAndView modelAndView){
@@ -45,7 +44,7 @@ public class UserRegisterController {
 			}
 			modelAndView.addObject("errorRegisterMessage", regErrorList);
 		}else{
-			if (implUserService.saveUser(newUser)){
+			if (userService.saveUser(newUser)){
 				modelAndView.setViewName("redirect:/list");
 			}else{
 				modelAndView.setViewName("userRegister");

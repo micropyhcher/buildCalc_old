@@ -8,16 +8,15 @@
 </head>
 <body>
 
-<a href="${pageContext.request.contextPath}/regform">Регистрация</a>
-<a href="${pageContext.request.contextPath}/logform">Вход</a>
-<a href="${pageContext.request.contextPath}/userlist">Список пользователей</a>
+<img src="${pageContext.request.contextPath}/WEB-INF/images/Logo.jpg" alt="Фон" align="center">
+
+    <form style="background: cadetblue">
+        <input type="button" value="Регистрация" onClick='location.href="${pageContext.request.contextPath}/regform"'>
+        <input type="button" value="Вход на сайт" onClick='location.href="${pageContext.request.contextPath}/logform"'>
+        <input type="button" value="Список пользователей" onClick='location.href="${pageContext.request.contextPath}/userlist"'>
+    </form>
 <br>
-<%--<jstl:if test="${}">Вы вошли под именем:</jstl:if>--%>
-    <jstl:out value="Вы вошли под именем: ${userEntered}"/>
-<jstl:if test="${isUserListEmpty}">Список пользователей:</jstl:if>
-<hr>
-<jstl:forEach items="${userList}" var="user">
-    <li><jstl:out value="${user}"/></li>
-</jstl:forEach>
+<jstl:if test="${isUserLogined}">Вы вошли под именем:</jstl:if>
+    <jstl:out value="${userEntered}"/>
 </body>
 </html>

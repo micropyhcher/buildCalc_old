@@ -21,7 +21,7 @@ public class ImplUserService implements UserService {
 
 	@Override
 	public User getUser(User userFromForm) {
-		User userFromList = userRepository.getUser(userFromForm.getEmail());
+		User userFromList = userRepository.getUser(userFromForm.getEmail(), userFromForm.getPass());
 		return userFromList;
 	}
 

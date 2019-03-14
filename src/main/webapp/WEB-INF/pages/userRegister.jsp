@@ -7,8 +7,12 @@
     <title>Регистрация</title>
 </head>
 <body>
-<a href="${pageContext.request.contextPath}/list">На главную</a>
-<br>
+
+    <form>
+        <input type="button" value="На главную" onClick='location.href="${pageContext.request.contextPath}/list"'>
+    </form>
+
+    <p>
     <spring:form modelAttribute="newUser" method="post" action="${pageContext.request.contextPath}/regform">
         Ваше имя: <spring:input path="name"/>
         Ваш возраст: <spring:input path="age"/>

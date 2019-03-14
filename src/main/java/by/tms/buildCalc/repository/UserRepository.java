@@ -8,7 +8,7 @@ import java.util.List;
 public interface UserRepository {
 
 	boolean saveUser(User userFromForm);
-	User getUser(String email);
+	User getUser(String email, String pass);
 	List<User> getUserList();
 
 }
