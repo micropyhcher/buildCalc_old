@@ -19,7 +19,7 @@
     <jstl:if test="${isUserListEmpty}">Список пользователей пуст</jstl:if>
     <hr>
     <jstl:forEach items="${userList}" var="user">
-        <li><jstl:out value="${user}"/></li>
+        <li><jstl:out value="${user.name} | ${user.email} (${user.id})"/></li>
     </jstl:forEach>
 </body>
 </html>

@@ -5,6 +5,9 @@
 <html>
 <head>
     <title>Регистрация</title>
+    <style>
+        <%@include file="../css/bootstrap.min.css"%>
+    </style>
 </head>
 <body>
 
@@ -13,7 +16,7 @@
     </form>
 
     <p>
-    <spring:form modelAttribute="newUser" method="post" action="${pageContext.request.contextPath}/regform">
+    <spring:form modelAttribute="newUser" method="post" action="${pageContext.request.contextPath}/regform" cssStyle="background-color: #80bdff">
         Ваше имя: <spring:input path="name"/>
         Ваш возраст: <spring:input path="age"/>
         Ваш E-Mail: <spring:input path="email"/>

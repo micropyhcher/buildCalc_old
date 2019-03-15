@@ -52,7 +52,7 @@
                 <prop key="hibernate.jdbc.fetch_size">50</prop>
                 <prop key="hibernate.jdbc.batch_size">10</prop>
                 <prop key="hibernate.show_sql">true</prop>
-                <!--<prop key="hibernate.hbm2ddl.auto">create-drop</prop>-->
+                <prop key="hibernate.hbm2ddl.auto">create-drop</prop> <!--схема и таблицы создадуться сами-->
             </props>
         </property>
     </bean>

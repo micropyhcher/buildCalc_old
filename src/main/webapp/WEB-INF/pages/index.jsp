@@ -11,10 +11,10 @@
 </head>
 <body>
 
-<div size="300" style="align-self: end">
-    ghj,f
-    <jstl:if test="${isUserLogined}">Вы вошли под именем:</jstl:if>
-    <jstl:out value="${userEntered}"/>
+<div>
+    <jstl:if test="${enteredUser.name.length()>0}">
+        <jstl:out value="Вы вошли под именем: ${enteredUser}"/>
+    </jstl:if>
     <%--<jstl:out value="from session ${enteredUserFromSession}"/>--%>
 </div>
 

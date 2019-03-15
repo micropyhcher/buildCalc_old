@@ -1,6 +1,6 @@
 package by.tms.buildCalc.enums;
 
-public enum  UserRoles {
+public enum UserRoles {
     GUEST,
     USER,
     ADMIN

@@ -29,11 +29,4 @@ public class UserListController {
         modelAndView.addObject("userList",userList);
         return modelAndView;
     }
-
-//    @PostMapping
-//    public ModelAndView userList (ModelAndView modelAndView, HttpSession httpSession){
-//        modelAndView.setViewName("userList");
-//
-//        return modelAndView;
-//    }
 }

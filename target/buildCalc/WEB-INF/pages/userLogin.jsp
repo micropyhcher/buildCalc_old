@@ -5,6 +5,9 @@
 <html>
 <head>
     <title>Вход</title>
+    <style>
+        <%@include file="../css/bootstrap.min.css"%>
+    </style>
 </head>
 <body>
     <form>
@@ -18,9 +21,9 @@
     </spring:form>
 
         <jstl:if test="${errorLoginMessage.size() > 0}">Ошибка введенных данных:</jstl:if>
-        <jstl:forEach items="${errorLoginMessage}" var="i">
-    <li><jstl:out value="${i}"/></li>
-    </jstl:forEach>
+        <jstl:forEach items="${errorLoginMessage}" var="mesage">
+            <li><jstl:out value="${mesage}"/></li>
+        </jstl:forEach>
 
     <jstl:out value="${userEntered}"/>
 </body>
