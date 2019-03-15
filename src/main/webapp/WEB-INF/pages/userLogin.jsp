@@ -5,6 +5,9 @@
 <html>
 <head>
     <title>Вход</title>
+    <style>
+        <%@include file="../css/bootstrap.min.css"%>
+    </style>
 </head>
 <body>
     <form>

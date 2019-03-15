@@ -1,6 +1,7 @@
 package by.tms.buildCalc.service;
 
 import by.tms.buildCalc.entity.User;
+import by.tms.buildCalc.repository.DBUserRepository;
 import by.tms.buildCalc.repository.ListUserRepository;
 import by.tms.buildCalc.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

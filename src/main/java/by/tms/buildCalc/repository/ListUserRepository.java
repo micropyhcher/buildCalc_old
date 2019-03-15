@@ -30,23 +30,6 @@ public class ListUserRepository implements UserRepository {
 		return isUserSave;
 	}
 
-	// === вариант 1 ===
-//	@Override
-//	public User getUser(String email) {
-//		User userForReturn = new User();
-//		for (User userInList : userList) {
-//			if (userInList.getEmail().equals(email)){
-//				userForReturn = userInList;
-////				return user;
-//			}
-//		}
-//		if (userForReturn.getName().isEmpty()){
-//			userForReturn.setName("Guest");
-//		}
-//		return userForReturn;
-//	}
-
-	// === вариант 2 ===
 	@Override
 	public User getUser(String email, String pass) {
 		for (User userInList : userList) {

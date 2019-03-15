@@ -7,6 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 
@@ -24,9 +26,18 @@ public class IndexController {
 	}
 
 	@GetMapping(path = "list")
-	public ModelAndView indexUserList(ModelAndView modelAndView, HttpSession httpSession){
+	public ModelAndView indexUserList(ModelAndView modelAndView, HttpServletResponse response, HttpServletRequest request, HttpSession httpSession){
 		modelAndView.setViewName("index");
-//		;
+
+//		=============================== session ==============================================
+
+//		httpSession = (HttpSession) request.getAttribute("userSession");
+//		User userFromSession = (User) httpSession.getAttribute("userEnteredSession");
+//		modelAndView.addObject("enteredUserFromSession",userFromSession);
+//		System.out.println("index " + userFromSession);
+
+//		========================= userList on index page ======================================
+//
 //		boolean isUserListEmpty = true;
 //		if (userService.getUserList().isEmpty()){
 //			modelAndView.setViewName("redirect:/");
@@ -38,6 +49,9 @@ public class IndexController {
 //			modelAndView.addObject("lastRegistereduser",lastRegistereduser);
 //		}
 //		modelAndView.addObject("isUserListEmpty",isUserListEmpty);
+
+//		=========================================================================================
+
 		return modelAndView;
 	}
 }
