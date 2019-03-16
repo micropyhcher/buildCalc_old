@@ -7,7 +7,7 @@
 
   <!--<filter>-->
   <!--<filter-name>UserFilter</filter-name>-->
-  <!--<filter-class>by.tms.myspringtest.filter.UserFilter</filter-class>-->
+  <!--<filter-class>by.tms.buildCalc.filter.UserFilter</filter-class>-->
   <!--</filter>-->
   <!--<filter-mapping>-->
   <!--<filter-name>UserFilter</filter-name>-->

@@ -24,28 +24,36 @@ public class UserLoginController {
 	@GetMapping
 	public ModelAndView logUser(ModelAndView modelAndView) {
 		modelAndView.setViewName("userLogin");
-		modelAndView.addObject("userLogined", new User());
+		modelAndView.addObject("userFromLoginForm", new User());
 		return modelAndView;
 	}
 
 	@PostMapping
-	public ModelAndView userEnter(@Valid @ModelAttribute(name = "userLogined") User userLogined, BindingResult bindingResult,
+	public ModelAndView userEnter(@Valid @ModelAttribute(name = "userFromLoginForm") User userFromLoginForm, BindingResult bindingResult,
                                   ModelAndView modelAndView, HttpServletRequest request) {
+
+//		============================= ВАЛИДАЦИЯ ===============================
+        List<String> logErrorList = new ArrayList<>();
 		if (bindingResult.hasErrors()){
 			modelAndView.setViewName("userLogin");
 			List<FieldError> logError = bindingResult.getFieldErrors();
-			List<String> logErrorList = new ArrayList<>();
+
 			for (int i = 0; i < logError.size(); i++){
 				logErrorList.add(logError.get(i).getDefaultMessage());
 			}
 			modelAndView.addObject("errorLoginMessage", logErrorList);
+
+//		========================== ПРОШЛИ ВАЛИДАЦИЮ ===========================
+
 		}else{
-			User userEntered = userService.getUser(userLogined);
-			if(userEntered.getName().equals("Guest")){
+			User userFromDB = userService.getUser(userFromLoginForm);
+			System.out.println(userFromDB);
+			if(userFromDB.getName() == null){
 				modelAndView.setViewName("userLogin");
-				modelAndView.addObject("userEntered", "Email или пароль не верны");
+				logErrorList.add("Email или пароль не верны");
+				modelAndView.addObject("errorLoginMessage", logErrorList);
 			}else{
-				request.getSession().setAttribute("userEnteredSession", userEntered);
+				request.getSession().setAttribute("userEnteredSession", userFromDB);
 				modelAndView.setViewName("redirect:/list");
 			}
 		}

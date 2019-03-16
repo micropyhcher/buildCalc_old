@@ -12,12 +12,9 @@
 <body>
 
 <div>
-    <jstl:if test="${enteredUser.name.length()>0}">
-        <jstl:out value="Вы вошли под именем: ${enteredUser}"/>
-    </jstl:if>
-    <%--<jstl:out value="from session ${enteredUserFromSession}"/>--%>
+    <jstl:if test="${enteredUserFlag}">Вы вошли под именем: </jstl:if>
+    <jstl:out value="${enteredUser}"/>
 </div>
-
 
 <img src="${pageContext.request.contextPath}images/Logo.jpg" alt="Фон" style="alignment: center">
 

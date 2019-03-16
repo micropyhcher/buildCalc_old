@@ -35,6 +35,7 @@ public class User {
 	private Integer age;
 
 	@Column(name = "email", unique = true)
+
 	@Email(message = "Введите вашу электронную почту")
 	private String email;
 

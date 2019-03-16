@@ -16,7 +16,7 @@
     </form>
 
     <p>
-    <spring:form modelAttribute="newUser" method="post" action="${pageContext.request.contextPath}/regform" cssStyle="background-color: #80bdff">
+    <spring:form modelAttribute="userFromRegForm" method="post" action="${pageContext.request.contextPath}/regform">
         Ваше имя: <spring:input path="name"/>
         Ваш возраст: <spring:input path="age"/>
         Ваш E-Mail: <spring:input path="email"/>

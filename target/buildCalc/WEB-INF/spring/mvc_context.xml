@@ -15,11 +15,11 @@
     </bean>
     <!--=================================================================================================-->
     <!--обьявляем один перехватчик-->
-    <!--<mvc:interceptors>-->
-        <!--<mvc:interceptor>-->
-            <!--<mvc:mapping path="/log"/>-->
-            <!--&lt;!&ndash;Inter помечен @Component&ndash;&gt;-->
-            <!--<ref bean="loginInterceptor"/>-->
-        <!--</mvc:interceptor>-->
-    <!--</mvc:interceptors>-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/log"/>
+            <!--Inter помечен @Component-->
+            <ref bean="logInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>

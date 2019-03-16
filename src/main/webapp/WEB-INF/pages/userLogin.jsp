@@ -14,7 +14,7 @@
         <input type="button" value="На главную" onClick='location.href="${pageContext.request.contextPath}/list"'>
     </form>
     <p>
-    <spring:form modelAttribute="userLogined" method="post" action="${pageContext.request.contextPath}/logform">
+    <spring:form modelAttribute="userFromLoginForm" method="post" action="${pageContext.request.contextPath}/logform">
         E-Mail: <spring:input path="email"/>
         Пароль: <spring:password path="pass"/>
         <spring:button>Войти</spring:button>
@@ -25,6 +25,6 @@
             <li><jstl:out value="${mesage}"/></li>
         </jstl:forEach>
 
-    <jstl:out value="${userEntered}"/>
+    <%--<jstl:out value="${userFromLoginForm}"/>--%>
 </body>
 </html>

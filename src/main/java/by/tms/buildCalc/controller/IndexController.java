@@ -18,16 +18,30 @@ public class IndexController {
 	private ImplUserService userService;
 
 	@GetMapping
-	public String index() {
+	public String index(HttpServletRequest request) {
+
+		//		========================== создание пустой сессии =============================
+
+		if (request.getSession().isNew()){
+			request.getSession().setAttribute("userEnteredSession", new User());
+		}
+
 //		modelAndView.setViewName("index");
-		return "index";
+
+		return "redirect:/list";
 	}
 
 	@GetMapping(path = "list")
 	public ModelAndView indexUserList(ModelAndView modelAndView, HttpServletRequest request) {
 		modelAndView.setViewName("index");
 		User userFromSession = (User) request.getSession().getAttribute("userEnteredSession");
-		modelAndView.addObject("enteredUser", userFromSession.getName() + " [" + userFromSession.getEmail() + "]");
+		if (userFromSession.getName() == null){
+			modelAndView.addObject("enteredUserFlag",false);
+			modelAndView.addObject("enteredUser","Вы не авторизированы");
+		}else{
+			modelAndView.addObject("enteredUserFlag",true);
+			modelAndView.addObject("enteredUser", userFromSession.getName() + " [" + userFromSession.getEmail() + "]");
+		}
 		return modelAndView;
 	}
 }

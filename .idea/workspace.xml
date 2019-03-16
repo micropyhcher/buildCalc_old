@@ -7,32 +7,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f005e518-38f7-4bd4-9ea2-5fb3e7444d21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/interceptor/LogInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserRegisterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/enums/UserRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/enums/UserRoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/filter/UserFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/filter/UserFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/DBUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/DBUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/ListUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/ListUserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userRegister.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userRegister.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/db_context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/db_context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/mvc_context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/mvc_context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/buildCalc/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/by/tms/buildCalc/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/by/tms/buildCalc/controller/IndexController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/by/tms/buildCalc/controller/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/by/tms/buildCalc/controller/UserLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/by/tms/buildCalc/controller/UserRegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/by/tms/buildCalc/controller/UserRegisterController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/by/tms/buildCalc/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/by/tms/buildCalc/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/by/tms/buildCalc/filter/UserFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/by/tms/buildCalc/repository/ListUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/by/tms/buildCalc/repository/ListUserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/classes/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/pages/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/pages/userLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/pages/userLogin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/pages/userRegister.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/pages/userRegister.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/pages/userlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/pages/userlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/spring/mvc_context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/spring/mvc_context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/buildCalc/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/buildCalc/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/tms/buildCalc/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/tms/buildCalc/controller/IndexController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/tms/buildCalc/controller/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/tms/buildCalc/controller/UserLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/tms/buildCalc/controller/UserRegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/tms/buildCalc/controller/UserRegisterController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/tms/buildCalc/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/tms/buildCalc/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/tms/buildCalc/filter/UserFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/tms/buildCalc/repository/ListUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/tms/buildCalc/repository/ListUserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -77,28 +86,6 @@
         <item name="buildcalc: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySql_work" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySql_work" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySql_work" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="buildcalc: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySql_work" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="buildcalc: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -107,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="255">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -116,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="29" column="112" selection-start-line="29" selection-start-column="112" selection-end-line="29" selection-end-column="112" />
+            <state relative-caret-position="146">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,10 +113,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userLogin.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserRegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="316">
+              <caret line="53" column="57" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,17 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/service/ImplUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="384">
+              <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,22 +137,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/filter/UserFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserListController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="367">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/DBUserRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/interceptor/LogInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-14">
+              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -212,33 +193,34 @@
         <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/filter/Filter.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/filter/UserFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/RegisterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userlist.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserRegisterController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/createdb.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/isert.sql" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/mvc_context.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/ListUserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userRegister.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/entity/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/enums/UserRoles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/spring_context.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/db_context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserListController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/service/ImplUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userLogin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/db_context.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/mvc_context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/DBUserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/ListUserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/filter/UserFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserRegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userRegister.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userLogin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/interceptor/LogInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserLoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/DBUserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserListController.java" />
       </list>
     </option>
   </component>
@@ -272,7 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -413,27 +394,29 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552684355359" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552772363277" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GDrive\micropyhcher.work\IntellijIdea\TeachMeSkills\TeachMeSlills_My_HW_Projects\buildCalc\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GDrive\micropyhcher_work\IntellijIdea\TeachMeSkills\TeachMeSlills_My_HW_Projects\buildCalc\src\main\webapp\WEB-INF\pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GDrive\micropyhcher_work\IntellijIdea\TeachMeSkills\TeachMeSlills_My_HW_Projects\buildCalc\src\main\java\by\tms\buildCalc\interceptor" />
+      <recent name="D:\GDrive\micropyhcher.work\IntellijIdea\TeachMeSkills\TeachMeSlills_My_HW_Projects\buildCalc\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -621,6 +604,8 @@
       <workItem from="1552567012183" duration="15592000" />
       <workItem from="1552632532641" duration="21135000" />
       <workItem from="1552670878380" duration="11909000" />
+      <workItem from="1552686542099" duration="104000" />
+      <workItem from="1552729287076" duration="27708000" />
     </task>
     <task id="LOCAL-00001" summary="rev1">
       <created>1552588440925</created>
@@ -643,17 +628,23 @@
       <option name="project" value="LOCAL" />
       <updated>1552661844268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rev4">
+      <created>1552686602722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552686602722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103823000" />
+    <option name="totallyTimeSpent" value="131635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Persistence" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.22867803" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.23400854" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.22867803" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -661,9 +652,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -736,7 +728,8 @@
     <MESSAGE value="rev1" />
     <MESSAGE value="rev2" />
     <MESSAGE value="rev3" />
-    <option name="LAST_COMMIT_MESSAGE" value="rev3" />
+    <MESSAGE value="rev4" />
+    <option name="LAST_COMMIT_MESSAGE" value="rev4" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -744,27 +737,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/interceptor/LoginInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/enums/UserRoles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/javax/validation/constraints/Email.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,16 +773,6 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3dc9b42a-1229-4518-a6ae-01e4c17cb96e/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserRegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.5.RELEASE/spring-tx-5.1.5.RELEASE.jar!/org/springframework/transaction/config/spring-tx.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -859,75 +825,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/entity/Role.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/44e0c4a7-2713-45b9-b32a-486aaf609d20/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/EntityExistsException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="455">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/entity/Role.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.16.Final/hibernate-core-5.2.16.Final-sources.jar!/org/hibernate/query/QueryProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="546">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/EntityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="591" column="27" selection-start-line="591" selection-start-column="27" selection-end-line="591" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/spring_context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="104">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/service/ImplUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/ListUserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userRegister.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/44e0c4a7-2713-45b9-b32a-486aaf609d20/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="29" column="112" selection-start-line="29" selection-start-column="112" selection-end-line="29" selection-end-column="112" />
+        <state relative-caret-position="182">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -936,55 +876,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/db_context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="54" column="77" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
+        <state relative-caret-position="-7">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/GeneratedValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/Column.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/mvc_context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="312">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userLogin.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/DBUserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="235">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/filter/UserFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/service/ImplUserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/DBUserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="316">
+          <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/repository/ListUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="148" selection-start-line="33" selection-start-column="148" selection-end-line="33" selection-end-column="148" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="111" selection-start-line="14" selection-start-column="111" selection-end-line="14" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="13" column="111" selection-start-line="13" selection-start-column="111" selection-end-line="13" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/interceptor/LogInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/filter/UserFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" />
+          <folding>
+            <element signature="e#0#901#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -992,7 +983,41 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserListController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userRegister.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="111" selection-start-line="14" selection-start-column="111" selection-end-line="14" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserRegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="53" column="57" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1001,8 +1026,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/tms/buildCalc/controller/UserLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        <state relative-caret-position="384">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
