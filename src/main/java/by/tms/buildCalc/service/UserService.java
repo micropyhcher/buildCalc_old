@@ -9,4 +9,5 @@ public interface UserService {
 	boolean saveUser(User userFromForm);
 	User getUser(User userFromForm);
 	List<User> getUserList();
+	boolean delUser(User userForDelete);
 }

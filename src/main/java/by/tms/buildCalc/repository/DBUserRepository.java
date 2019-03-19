@@ -12,49 +12,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-@Transactional(readOnly = true)
+@Transactional
 public class DBUserRepository implements UserRepository {
 
 	@PersistenceContext
 	private EntityManager entityManager;
 
-//	//================================= rev1 ====================================================
-//
-//	@Transactional(readOnly = false)
-//	@Override
-//	public boolean saveUser(User userFromForm) {
-//
-//		boolean isUserPresent = true;
-//
-//		try {
-//
-//			User userFromDB = entityManager // если нашел, то такой пользователь уже есть, значит дубль !!!
-//					.createNamedQuery("User.findUserByEmail",User.class)
-//					.setParameter("email",userFromForm.getEmail())
-//					.getSingleResult();
-//			isUserPresent = true; // пускай будет для наглядности
-//
-//		} catch (NoResultException noResultException) {
-//
-////			userFromDB = new User(); // если не нашел, то пользователь уникален, значит флаг присутствие пользователя false
-//			isUserPresent = false;
-//
-//		}
-//
-//		boolean isUserAdd= false;
-//
-//		if (isUserPresent == false) { // если уникален, то добавляем
-//			entityManager.persist(userFromForm);
-//			isUserAdd = true; // отсылаем true, что добавлен
-//
-//		} else {
-//			isUserAdd = false; // если пользователь дублируется, то не добавляем его (пускай будет для наглядности)
-//		}
-//		return isUserAdd;
-//	}
-
-	////================================= rev2 ====================================================
-	@Transactional(readOnly = false)
 	@Override
 	public boolean saveUser(User userFromForm) {
 		try {
@@ -87,6 +50,16 @@ public class DBUserRepository implements UserRepository {
 					.getResultList(); // если ошибок небыло, значит в базе есть пользователи и возвращается список этих пользователей
 		}catch (NoResultException noResultException){
 			return new ArrayList<User>(); // если возникла ошибка, значит база пользователей пуска и возвращается пустой ArrayList
+		}
+	}
+
+	@Override
+	public boolean delUser(User userForDelete) {
+		try{
+			entityManager.remove(userForDelete);
+			return true; // пользователь был успешно удален из БД
+		}catch (IllegalArgumentException illegalArgumentException){
+			return false; // если возникла ошибка, значит пользователь удален небыл.
 		}
 	}
 }

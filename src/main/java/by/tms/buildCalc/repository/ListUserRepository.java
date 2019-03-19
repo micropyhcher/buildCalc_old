@@ -52,4 +52,16 @@ public class ListUserRepository implements UserRepository {
 	public List<User> getUserList() {
 		return userList;
 	}
+
+	@Override
+	public boolean delUser(User userForDelete) {
+		boolean isUserDelete = false;
+		for (User userInList : userList){
+			if (userInList.getEmail().equals(userForDelete.getEmail())){
+				userList.remove(userForDelete);
+				isUserDelete = true;
+			}
+		}
+		return isUserDelete;
+	}
 }

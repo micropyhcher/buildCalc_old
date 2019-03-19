@@ -22,6 +22,8 @@ public class User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "ID")
+//	@OneToOne(orphanRemoval=true)
 	private Long id;
 
 	@Column(name = "name")

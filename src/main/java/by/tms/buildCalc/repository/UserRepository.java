@@ -10,5 +10,6 @@ public interface UserRepository {
 	boolean saveUser(User userFromForm);
 	User getUser(String email, String pass);
 	List<User> getUserList();
+	boolean delUser(User userForDelete);
 
 }

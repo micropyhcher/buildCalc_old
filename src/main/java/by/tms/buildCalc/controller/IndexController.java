@@ -19,23 +19,18 @@ public class IndexController {
 
 	@GetMapping
 	public String index(HttpServletRequest request) {
-
-		//		========================== создание пустой сессии =============================
-
+//		========================== создание сессии =============================
 		if (request.getSession().isNew()){
 			request.getSession().setAttribute("userEnteredSession", new User());
 		}
-
-//		modelAndView.setViewName("index");
-
 		return "redirect:/list";
 	}
 
 	@GetMapping(path = "list")
-	public ModelAndView indexUserList(ModelAndView modelAndView, HttpServletRequest request) {
-		modelAndView.setViewName("index");
+	public ModelAndView indexList(ModelAndView modelAndView, HttpServletRequest request) {
 		User userFromSession = (User) request.getSession().getAttribute("userEnteredSession");
-		if (userFromSession.getName() == null){
+		modelAndView.setViewName("index");
+		if (userFromSession == null || userFromSession.equals(new User())){
 			modelAndView.addObject("enteredUserFlag",false);
 			modelAndView.addObject("enteredUser","Вы не авторизированы");
 		}else{
@@ -44,4 +39,49 @@ public class IndexController {
 		}
 		return modelAndView;
 	}
+
+// =================================== for rev2 ===============================================
+//	@GetMapping
+//	public String index( ModelAndView modelAndView, HttpServletRequest request) {
+//		modelAndView.setViewName("index");
+////		========================== создание пустой сессии =============================
+//
+//		if (request.getSession().isNew()){
+//			request.getSession().setAttribute("userEnteredSession", new User());
+//		}
+//
+//	========================== проверка на то, залогинлся ли пользоваатель =============================
+////	?????
+//		return "index"; // ?????
+//	}
+//
+//	@GetMapping(path = "guest")
+//	public ModelAndView indexGuest(ModelAndView modelAndView, HttpServletRequest request) {
+//		modelAndView.setViewName("index_guest");
+//
+//		return modelAndView;
+//	}
+//
+//	@GetMapping(path = "user")
+//	public ModelAndView indexUser(ModelAndView modelAndView, HttpServletRequest request) {
+//		modelAndView.setViewName("index_user");
+//		User userFromSession = (User) request.getSession().getAttribute("userEnteredSession");
+//		if (userFromSession == null || userFromSession.equals(new User())){
+//			modelAndView.addObject("enteredUserFlag",false);
+//			modelAndView.addObject("enteredUser","Вы не авторизированы");
+//		}else{
+//			modelAndView.addObject("enteredUserFlag",true);
+//			modelAndView.addObject("enteredUser", userFromSession.getName() + " [" + userFromSession.getEmail() + "]");
+//		}
+//		return modelAndView;
+//	}
+//
+//	@GetMapping(path = "admin")
+//	public ModelAndView indexAdmin(ModelAndView modelAndView, HttpServletRequest request) {
+//		modelAndView.setViewName("index_admin");
+//		return modelAndView;
+//	}
+
+	// ==============================================================================================
+
 }
